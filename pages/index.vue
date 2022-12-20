@@ -8,8 +8,8 @@
                 Introduction
             </h1>
             <h1 data-aos="fade-up" class=" pt-8 text-4xl  lg:text-6xl leading-tight  font-bold dark:text-gray-200 ">
-                Nisi irure laboris velit consequat dolore nulla exercitation cillum cillum aliquip laboris velit
-                pariatur.
+                I am a designer. I used to be engaged in industrial design, and later turned to user experience design. I have served
+                Huawei, Ali, Tencent and other companies successively. I love design and love to explore new things.
             </h1>
 
             <div data-aos="fade-up" class="btns w-full h-auto pt-16  flex flex-col md:flex-row">
