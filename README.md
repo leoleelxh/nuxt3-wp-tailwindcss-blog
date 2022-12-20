@@ -1,43 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 & TailwinCSS & WP Blog
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+We are going to build a Nuxt3 blog with WordPress as a backend. We will use the WordPress REST API to fetch the data from WordPress and display it on our Nuxt3 blog.
 
-## Setup
 
-Make sure to install the dependencies:
+# Use
 
-```bash
-# yarn
-yarn install
+- [x] Nuxt3
+- [x] Headless WordPress API
+- [x] TaiwindCSS
+- [x] Threejs
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# nuxt3-wp-tailwindcss-blog
+# Ref
+jahidanowar/nuxt3-wp-blog https://github.com/jahidanowar/nuxt3-wp-blog
