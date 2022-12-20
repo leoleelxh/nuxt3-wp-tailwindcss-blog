@@ -13,11 +13,12 @@
             </h1>
 
             <div data-aos="fade-up" class="btns w-full h-auto pt-16  flex flex-col md:flex-row">
-                <div
+               <NuxtLink to="/projects"><div
                     class="mainbtn text-xl text-white rounded-full w-40 h-16 mb-6 bg-blue-500 flex justify-center items-center hover:shadow-lg ">
                     View
                     Projects
                 </div>
+                </NuxtLink>
                 <div class="subbtn  text-xl text-blue-500  rounded-full  w-40 h-16  md:ml-8 bg-white border border-blue-400 
                     hover:shadow-lg flex justify-center items-center">
                     Contact me
