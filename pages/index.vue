@@ -26,15 +26,11 @@
             </div>
         </div>
         <div class="mainintro   w-full h-auto text-xl text-gray-800 dark:text-gray-200 leading-8 grid gap-4 grid-cols-1 md:grid-cols-2 ">
-            <div data-aos="fade-up" class=" lefttext  ">This demo site shows off some of the things you can do with the
-                theme. Even though Björk is built with personal sites
-                and blogs in mind, it can be used for any type of website. It’s named after my favorite type of tree.
-                Yes, I have one.</div>
+            <div data-aos="fade-up" class=" lefttext  ">I like design, because design can solve the problems in our life. When I encounter problems, I design first, which has
+            gradually become my attitude towards life and way of thinking.</div>
             <!-- <div class="h-full w-8"></div> -->
-            <div data-aos="fade-up" class=" righttext   ">Björk is built by me, Anders Norén. You can find the rest of
-                my
-                free WordPress themes here. Björk is free to download
-                from WordPress.org if you want to give it a try.</div>
+            <div data-aos="fade-up" class=" righttext   ">I love code because code is the way to implement a design. For a good design to be implemented, a full-stack design
+            method is required to ensure the continuity of design ideas.</div>
         </div>
         <div data-aos="fade-up" class="cards pt-16 w-full grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div data-aos="fade-up" class="  h-fit bg-gray-100 rounded-lg overflow-hidden hover:shadow-sm">
