@@ -37,7 +37,7 @@
                 <img class=" w-full h-auto object-cover" src="../assets/img/poe-image-1.webp" alt="">
                 <div class=" p-6">
                     <h1 class=" text-2xl pt-2 font-bold">Full of Skills</h1>
-                    <h1 class="  pt-6">Learn about the features included in leolee.</h1>
+                    <h1 class="  pt-6">Possess rich UXUI design skills, both product and operation.</h1>
                     <NuxtLink to="/skill">
                         <div class=" mt-6 w-1/2 h-10 bg-black 
                     rounded-full text-white flex justify-center items-center hover:bg-gray-800">More
@@ -49,7 +49,7 @@
                 <img class=" w-full h-auto object-cover" src="../assets/img/poe-image-6.webp" alt="">
                 <div class=" p-6">
                     <h1 class=" text-2xl pt-2 font-bold">Lot of projects</h1>
-                    <h1 class="  pt-6">Learn about the features included in leolee.</h1>
+                    <h1 class="  pt-6">Successful C-end and B-end large-scale App design.</h1>
                     <NuxtLink to="/projects">
                         <div class=" mt-6 w-1/2 h-10 bg-black 
                                 rounded-full text-white flex justify-center items-center hover:bg-gray-800">More
@@ -61,8 +61,8 @@
                 <img class=" w-full h-auto object-cover" src="../assets/img/poe-image-8.webp" alt="">
                 <div class=" p-6">
                     <h1 class=" text-2xl pt-2 font-bold">Update myself</h1>
-                    <h1 class="  pt-6">Learn about the features included in leolee.</h1>
-                    <NuxtLink to="/blog">
+                    <h1 class="  pt-6">Pay attention to design trends, technology trends, and be good at thinking.</h1>
+                    <NuxtLink to="/categories">
                         <div class=" mt-6 w-1/2 h-10 bg-black 
                                 rounded-full text-white flex justify-center items-center hover:bg-gray-800">More
                         </div>
