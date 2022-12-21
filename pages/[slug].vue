@@ -6,7 +6,7 @@
         <!-- back btn -->
         <div
             class=" bg-black z-50 dark:bg-gray-600 text-white w-16 h-16 rounded-lg sticky top-[84px] md:top-16 flex justify-center items-center hover:bg-gray-800">
-            <NuxtLink to="/categories">
+            <NuxtLink @click="$router.back()">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-full h-full p-4 text-white">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 4.5l-15 15m0 0h11.25m-11.25 0V8.25" />
@@ -34,8 +34,9 @@
 
 <script lang="ts" setup>
 const params = useRoute().params;
+const routename = useRoute().name;
 useHead({
-    title: `${params.slug}`,
+    title: `leolee.design-${params.slug}`,
     meta: [
         {
             name: "description",

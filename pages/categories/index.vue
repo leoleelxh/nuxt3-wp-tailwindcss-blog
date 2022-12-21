@@ -14,7 +14,7 @@
 
 <script lang="ts" setup>
 
-const { data: posts } = await(await useWpApi()).getPosts();
+const { data: posts } = await(await useWpApi()).getPosts(2);
 
 </script>
 

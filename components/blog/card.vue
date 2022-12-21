@@ -5,7 +5,7 @@
         <!-- <NuxtLink class=" pt-8 text-3xl font-bold hover:underline" :to="`/${slug}`">{{ title }}</NuxtLink> -->
 
         <NuxtLink :to="`/${slug}`">
-            <p class=" pt-3 text-3xl font-bold hover:underline">{{ title }}</p>
+            <p class=" pt-3 text-2xl font-bold hover:underline">{{ title }}</p>
         </NuxtLink>
 
         <p v-if="excerpt" class=" ">{{ excerpt }}</p>

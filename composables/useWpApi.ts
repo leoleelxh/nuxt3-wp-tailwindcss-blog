@@ -15,8 +15,9 @@ export default async () => {
         return useFetch<T>(`${WP_URL}/wp-json/wp/v2/${endpoint}`);
     };
 
+// design thinking post
     const getPosts = async (
-        category?: number,
+        category?: number ,
         page: number = 1,
         perPgae: number = 20,
         fields: string = "author,id,excerpt,title,link,slug,date"
@@ -27,6 +28,21 @@ export default async () => {
         }
         return get<Post[]>(query);
     };
+
+// my projects posts
+   const getMyProjectsPosts = async (
+        category: number = 1,
+        page: number = 1,
+        perPgae: number = 20,
+        fields: string = "author,id,excerpt,title,link,slug,date"
+    ) => {
+        let query: string = `posts?page=${page}&per_page=${perPgae}&_embed=1`;
+        if (category) {
+            query += `&categories=${category}`;
+        }
+        return get<Post[]>(query);
+    };
+
 
     const getPost = async (slug: string) => {
         return get<Post>(`posts?slug=${slug}&_embed=1`);
