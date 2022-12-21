@@ -16,6 +16,7 @@
 
 const { data: posts } = await(await useWpApi()).getPosts(2);
 
+
 </script>
 
 <style scoped>
